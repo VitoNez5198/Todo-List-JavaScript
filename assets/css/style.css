@@ -1,0 +1,97 @@
+body {
+    font-size: 24px;
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+
+
+li {
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    border: 1px solid black;
+    
+}
+
+
+.listaTareas{
+    width: 100%;
+}
+
+
+.lista-container {
+    display: block;  
+    justify-content: space-between;
+    
+}
+
+#agregarTarea{
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+}
+
+#agregarTarea:hover{
+    background-color: aqua;
+}
+
+
+
+#buttonBorrar {
+    color: white;
+    background-color: #ff4747;
+    padding: 7px 12px;
+    cursor: pointer;
+    border: none;
+}
+
+#buttonBorrar:hover{
+    background-color: #ff7171;
+}
+
+#buttonRealizado {    
+    color: white;
+    background-color: rgb(47, 47, 255);
+    padding: 7px 9px;
+    margin: 0 7px 0 7px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+#buttonRealizado:hover {
+    background-color: rgb(87, 87, 255);
+}
+
+
+.main {
+    /* background-color: rgb(149, 149, 255); */
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-container {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador-container {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
